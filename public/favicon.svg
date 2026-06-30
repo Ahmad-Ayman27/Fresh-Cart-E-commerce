@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+    <g fill="none" stroke="#22b14c" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+        <!-- cart body -->
+        <path d="M6 10 H14 L20 38 H46 L52 18 H17" />
+        <!-- horizontal lines inside cart -->
+        <line x1="19" y1="24" x2="49" y2="24" />
+        <line x1="20.5" y1="31" x2="47.5" y2="31" />
+        <!-- vertical handle to wheels -->
+        <line x1="20" y1="38" x2="20" y2="48" />
+        <line x1="46" y1="38" x2="46" y2="48" />
+        <!-- wheel base bar -->
+        <line x1="14" y1="48" x2="52" y2="48" />
+    </g>
+    <!-- wheels -->
+    <circle cx="22" cy="54" r="4" fill="#22b14c" />
+    <circle cx="44" cy="54" r="4" fill="#22b14c" />
+</svg>
