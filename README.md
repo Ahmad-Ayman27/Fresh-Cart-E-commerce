@@ -1,8 +1,23 @@
-# React + Vite
+# FreshCart 🛒
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-featured e-commerce app built with React.
 
-Currently, two official plugins are available:
+## 🔗 Live Demo
+https://spiffy-genie-893902.netlify.app
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠 Tech Stack
+- React 
+- Tailwind CSS
+- React Query (TanStack)
+- Axios
+- Formik + Yup
+- React Router DOM
+- Stripe Checkout
+
+## ✨ Features
+- Product listing with search & sort
+- Product details page
+- Cart & Wishlist
+- User authentication
+- Online & cash checkout
+- Order history
