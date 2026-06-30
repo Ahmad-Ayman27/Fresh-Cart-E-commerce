@@ -23,7 +23,7 @@ import CartContextProvider from "./components/contexts/CartContextProvider";
 import { Toaster } from "react-hot-toast";
 import CheckOut from "./components/CheckOut/CheckOut";
 import AllOrders from "./components/AllOrders/AllOrders";
-import WishListcontextProvider from "./components/contexts/WishListcontextProvider";
+import WishlistContextProvider from "./components/contexts/WishlistContextProvider";
 import Wishlist from "./components/Wishlist/Wishlist";
 import ForgotPassword from "./components/forget-password/ForgotPassword";
 let client = new QueryClient();
@@ -141,13 +141,13 @@ export default function App() {
     <QueryClientProvider client={client}>
       <ReactQueryDevtools />
       <Toaster />
-      <WishListcontextProvider>
+      <WishlistContextProvider>
         <CartContextProvider>
           <AuthContextProvider>
             <RouterProvider router={routes} />
           </AuthContextProvider>
         </CartContextProvider>
-      </WishListcontextProvider>
+      </WishlistContextProvider>
     </QueryClientProvider>
   );
 }
