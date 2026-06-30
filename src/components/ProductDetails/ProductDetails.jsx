@@ -3,7 +3,7 @@ import { Link, useParams } from "react-router-dom";
 import axios from "axios";
 import { ClipLoader } from "react-spinners";
 import { cartContext } from "../contexts/CartContextProvider";
-import { wishlistProvider } from "../contexts/WishListcontextProvider";
+import { wishlistProvider } from "../contexts/WishlistContextProvider";
 import RelatedProductsCarousel from "../RelatedProductsCarousel/RelatedProductsCarousel";
 
 export default function ProductDetails() {

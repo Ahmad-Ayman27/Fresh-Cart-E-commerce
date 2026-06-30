@@ -4,7 +4,7 @@ import axios from "axios";
 import { useQuery } from "@tanstack/react-query";
 import { ClipLoader } from "react-spinners";
 import { cartContext } from "../contexts/CartContextProvider";
-import { wishlistProvider } from "../contexts/WishListcontextProvider";
+import { wishlistProvider } from "../contexts/WishlistContextProvider";
 
 async function callApi() {
   return await axios.get("https://ecommerce.routemisr.com/api/v1/products");
