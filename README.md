@@ -3,7 +3,7 @@
 A full-featured e-commerce app built with React.
 
 ## 🔗 Live Demo
-https://spiffy-genie-893902.netlify.app
+fresh-cart-e-commerce-u4ic.vercel.app
 
 ## 🛠 Tech Stack
 - React 
